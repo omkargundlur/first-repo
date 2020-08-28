@@ -15,3 +15,7 @@ output "accesing_variable" {
 output "list" {
   value = var.list
 }
+
+output "listindex" {
+  value = var.list[1]
+}
