@@ -14,7 +14,7 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('TARGET') {
           steps {
             echo 'echo "TARGET"'
           }
